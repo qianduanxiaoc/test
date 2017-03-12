@@ -1,0 +1,18 @@
+$ git remote -v
+origin  git@github.com:username/repository.git (fetch)
+origin  git@github.com:username/repository.git (push)
+test    https://github.com/qianduanxiaoc/test.git (fetch)
+test    https://github.com/qianduanxiaoc/test.git (push)
+
+cc@cc-PC MINGW32 /c/workplace/gittest (master)
+$ git remote rm origin
+
+cc@cc-PC MINGW32 /c/workplace/gittest (master)
+$ git remote add origin git@github.com:qianduanxiaoc/test.git
+
+cc@cc-PC MINGW32 /c/workplace/gittest (master)
+$ git remote -v
+origin  git@github.com:qianduanxiaoc/test.git (fetch)
+origin  git@github.com:qianduanxiaoc/test.git (push)
+test    https://github.com/qianduanxiaoc/test.git (fetch)
+test    https://github.com/qianduanxiaoc/test.git (push)
